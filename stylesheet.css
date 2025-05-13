@@ -1,0 +1,312 @@
+:root{
+    --background-color: #fffaf0; 
+    --text-color: #343434; 
+    --cont-color: #fffafa; 
+
+/* --gradient1: #155d27; 
+   --gradient2: #1a7431;  
+   --gradient3: #208b3a; 
+   --gradient4: #25a244; 
+   --gradient5: #2dc653; 
+   --gradient6: #4ad66d; 
+   --gradient7: #6ede8a; 
+   --gradient8: #92e6a7; 
+   --gradient9: #b7efc5;   */
+
+}
+
+body {
+    color: var(--text-color); 
+    background: var(--background-color); 
+    font-family: 'Poppins', sans-serif; 
+
+    margin: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden; 
+
+    display: flex; 
+    justify-content: space-evenly;  
+    align-items: center; 
+    flex-direction: column;
+
+    /* background:  linear-gradient(-45deg, red, orange, green,blue, indigo, violet); 
+    animation: bg 12s infinite; 
+    background-size: 300px 300px;  */
+
+    /* background: repeating-linear-gradient(-45deg,yellow,yellow 5px,purple 5px,purple 10px);
+    animation: bg 36s infinite; 
+    background-size: 150% 150%;  */
+
+    /* background: repeating-radial-gradient(
+    black,
+    black 5px,
+    white 5px,
+    white 10px);
+    animation: bg 36s infinite; 
+    background-size: 150% 150%; */
+
+    /* background: repeating-conic-gradient(
+    #66ccff 0% 8.25%,
+    #6633ff 8.25% 16.5%,
+    #ff3399 16.5% 25%);
+    animation: bg 36s infinite; 
+    background-size: 150% 150%; */
+
+      /* background:
+    repeating-conic-gradient(
+      from 0deg at 80% 50%,
+      #5691f580 0% 8.25%,
+      #b338ff80 8.25% 16.5%,
+      #f8305880 16.5% 25%
+    ),
+    repeating-conic-gradient(
+      from 15deg at 50% 50%,
+      #e856f580 0% 8.25%,
+      #ff384c80 8.25% 16.5%,
+      #e7f83080 16.5% 25%
+    ),
+    repeating-conic-gradient(
+      from 0deg at 20% 50%,
+      #f58356ff 0% 8.25%,
+      #caff38ff 8.25% 16.5%,
+      #30f88aff 16.5% 25%);
+
+    animation: bg 36s infinite; 
+    background-size: 150% 150%; */
+
+      /* background: conic-gradient(
+      #fff 0.25turn,
+      #000 0.25turn 0.5turn,
+      #fff 0.5turn 0.75turn,
+      #000 0.75turn
+    ); 
+    
+    animation: bg 36s infinite; 
+    background-size: 150% 150%; */
+
+    /* background: conic-gradient(red, orange, green, blue, indigo, violet, red); 
+    animation: bg 36s infinite; 
+    background-size: 150% 150%; */
+
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 100% 100%; 
+    }
+}
+
+#content {
+    width: 85vw; 
+    height: 85vh; 
+    display: flex; 
+    justify-content: space-evenly;  
+    align-items: center; 
+    flex-direction: row;
+}
+
+#todolist-cont, #clearedtask-cont {
+    border: 2.5px solid var(--text-color); 
+}
+
+#todolist-title, #todolist-userinput, #todolist-todobox, #clearedtask-title, #clearedtask-clearedbox, #todolist-add-btn {
+    border: 2px solid var(--text-color); 
+}
+
+#todolist-cont {
+    background: var(--cont-color);
+    box-shadow: 10px 10px var(--text-color);  
+    
+    width: 400px; 
+    height: 450px; 
+    border-radius: 10px; 
+   
+    display: flex; 
+    flex-direction: column; 
+
+    /* box-shadow: 10px 10px #6c757d;  */
+     /* background: linear-gradient(to top, var(--gradient2), var(--gradient3), var(--gradient4), var(--gradient5), var(--gradient6), var(--gradient7), var(--gradient8), var(--gradient9));  */
+}
+
+#todolist-title {
+    background: var(--cont-color);
+    color: var(--text-color);  
+ 
+    margin: 20px 20px 0 20px; 
+    padding: 10px;
+    border-radius: 10px;  
+
+    /* text-shadow: 2px 0 #1b1b1b, -2px 0 #1b1b1b, 0 2px #1b1b1b, 0 -2px #1b1b1b,
+             1px 1px #1b1b1b, -1px -1px #1b1b1b, 1px -1px #1b1b1b, -1px 1px #1b1b1b; */
+    /* text-shadow: 2px 2px #1b1b1b;  */
+    /* background: linear-gradient(to right, var(--gradient2), var(--gradient3), var(--gradient4), var(--gradient5), var(--gradient6), var(--gradient7), var(--gradient8), var(--gradient9));  */
+}
+
+#todolist-userinput-cont {
+    background: var(--cont-color);
+
+    margin: 10px 20px; 
+    padding: 0; 
+    border-radius: 10px; 
+
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+#todolist-userinput {
+    background: var(--cont-color);
+    width: 81.5%; 
+    height: 100%; 
+    
+    margin: 0;
+    padding: 0 0 0 5px;  
+    border-radius: 10px; 
+}
+
+#todolist-add-btn {
+    width: 15%;
+    background: var(--background-color); 
+    color: var(--text-color); 
+    border-radius: 10px; 
+    height: 117.56551242760004252703008787379%; 
+    font-weight: 600; 
+    margin: 0px; 
+    text-align: center; 
+}
+
+#todolist-todobox {
+    background: var(--cont-color); 
+
+    height: 275px; 
+
+    margin: 0 20px 20px 20px; 
+    padding: 10px; 
+    border-radius: 10px; 
+}
+
+/* TUTORIAL GREATSTACK (BELOW) (MINOR CUSTOMIZATIONS OF MYSELF)*/
+
+ul li {
+    list-style: none;
+    /* list-style-type: none;  */
+    font-size: 17px; 
+    padding: 12px 8px 12px 42.5px; 
+    user-select: none; 
+    cursor: pointer; 
+    position: relative; 
+}
+
+ul li::before {
+    content: ''; 
+    position: absolute; 
+    height: 19px; 
+    width: 19px; 
+    background-image: url("images-Freepik/uncheck.png"); 
+    background-size: cover; 
+    background-position: center; 
+    top: 14px; 
+    left: 12px; 
+}
+
+li::before {
+    border: 1.5px solid var(--text-color);
+    border-radius: 8px; 
+
+}
+
+ul {
+    width: auto; 
+    height: auto; 
+   
+    margin: 0; 
+    padding: 0; 
+
+    display: flex; 
+    flex-direction: column; 
+}
+
+.liContainer {
+    border: 1.5px solid var(--text-color); 
+    width: 99.243313395210977377462485202209%; 
+    font-size: 16px; 
+    
+    margin-bottom: 7.5px; 
+    border-radius: 10px; 
+}
+
+ul li span {
+    position: absolute; 
+    right: 5px; 
+    top: 5px; 
+    width: 40px; 
+    height: 40px; 
+
+    font-size: 26px; 
+    color: var(--textcolor); 
+    line-height: 40px; 
+    border-radius: 10px; 
+    text-align: center; 
+
+}
+
+ul li span:hover, #todolist-add-btn:hover {
+    background: var(--text-color); 
+    color: var(--cont-color); 
+}
+
+ul li.checked::before {
+    background-image: url("images-Freepik/check-black.png");
+}
+
+/* TUTORIAL GREATSTACK (ABOVE) (MINOR CUSTOMIZATIONS OF MYSELF) */
+ 
+#clearedtask-cont {
+    background: var(--cont-color); 
+    box-shadow: 10px 10px var(--text-color); 
+
+    width: 400px; 
+    height: 250px; 
+    border-radius: 10px; 
+    
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+#clearedtask-title {
+    width: 330px; 
+
+    margin: 10px 10px 5px 10px; ; 
+    padding: 10px; 
+    border-radius: 10px; 
+      
+    
+}
+
+#clearedtask-clearedbox {
+    height: 200px; 
+    width: 350px; 
+     
+    margin: 5px 10px 20px 10px; 
+    border-radius: 10px; 
+}
+
+footer{
+    /* border: 2px solid var(--text-color);  */
+
+    width: 95vw; 
+    height: 20px; 
+    text-align: right; 
+
+    font-size: 12px; 
+}
