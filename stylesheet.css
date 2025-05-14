@@ -1,64 +1,64 @@
 :root{
-    --background-color: #fffaf0; 
-    --text-color: #343434; 
-    --cont-color: #fffafa; 
+    --background-color: #fffaf0;
+    --text-color: #343434;
+    --cont-color: #fffafa;
 
-/* --gradient1: #155d27; 
-   --gradient2: #1a7431;  
-   --gradient3: #208b3a; 
-   --gradient4: #25a244; 
-   --gradient5: #2dc653; 
-   --gradient6: #4ad66d; 
-   --gradient7: #6ede8a; 
-   --gradient8: #92e6a7; 
+/* --gradient1: #155d27;
+   --gradient2: #1a7431;
+   --gradient3: #208b3a;
+   --gradient4: #25a244;
+   --gradient5: #2dc653;
+   --gradient6: #4ad66d;
+   --gradient7: #6ede8a;
+   --gradient8: #92e6a7;
    --gradient9: #b7efc5;   */
 
 }
 
 /* :root {
-    --background-color: #00050f; 
-    --text-color: #cbcbcb; 
-    --cont-color: #000505; 
+    --background-color: #00050f;
+    --text-color: #cbcbcb;
+    --cont-color: #000505;
 } */
 
 :root{
     /* --background-color: #1b1b1b;  */
-    --background-color: #080808; 
+    --background-color: #080808;
     /* --text-color: #cbcbcb;  */
-    --text-color: #fffafa; 
+    --text-color: #fffafa;
     /* --cont-color: #242124; */
-    --cont-color: #1b1b1b;  
+    --cont-color: #1b1b1b;
 }
 
 body {
-    color: var(--text-color); 
-    background: var(--background-color); 
-    font-family: 'Poppins', sans-serif; 
+    color: var(--text-color);
+    background: var(--background-color);
+    font-family: 'Poppins', sans-serif;
 
-    margin: 0; 
-    width: 100vw; 
-    height: 100vh; 
-    overflow: hidden; 
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 
-    display: flex; 
-    justify-content: space-evenly;  
-    align-items: center; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
 
-    background:  linear-gradient(-45deg, red, orange, green,blue, indigo, violet); 
-    animation: bg 8s infinite; 
-    background-size: 300px 300px; 
+    /* background:  linear-gradient(-45deg, red, orange, green,blue, indigo, violet);
+    animation: bg 8s infinite;
+    background-size: 300px 300px;  */
 
     /* background: repeating-linear-gradient(-45deg,yellow,yellow 10px,purple 10px,purple 20px);
-    animation: bg 36s infinite; 
+    animation: bg 36s infinite;
     background-size: 150% 150%;  */
 
     /* background: repeating-linear-gradient(270deg, springgreen, springgreen 5px,lightcoral 5px,lightcoral 10px);
-    animation: bg 36s infinite; 
+    animation: bg 36s infinite;
     background-size: 150% 150%;  */
 
     /* background: repeating-linear-gradient(-180deg, orange, orange 20px, navy 20px,navy 40px);
-    animation: bg 36s infinite; 
+    animation: bg 36s infinite;
     background-size: 150% 150%;  */
 
 
@@ -67,14 +67,14 @@ body {
     black 5px,
     white 5px,
     white 10px);
-    animation: bg 36s infinite; 
+    animation: bg 36s infinite;
     background-size: 150% 150%; */
 
     /* background: repeating-conic-gradient(
     #66ccff 0% 8.25%,
     #6633ff 8.25% 16.5%,
     #ff3399 16.5% 25%);
-    animation: bg 36s infinite; 
+    animation: bg 36s infinite;
     background-size: 150% 150%; */
 
       /* background:
@@ -96,7 +96,7 @@ body {
       #caff38ff 8.25% 16.5%,
       #30f88aff 16.5% 25%);
 
-    animation: bg 36s infinite; 
+    animation: bg 36s infinite;
     background-size: 150% 150%; */
 
       /* background: conic-gradient(
@@ -104,13 +104,13 @@ body {
       #000 0.25turn 0.5turn,
       #fff 0.5turn 0.75turn,
       #000 0.75turn
-    ); 
-    
-    animation: bg 36s infinite; 
+    );
+
+    animation: bg 36s infinite;
     background-size: 150% 150%; */
 
-    /* background: conic-gradient(red, orange, green, blue, indigo, violet, red); 
-    animation: bg 36s infinite; 
+    /* background: conic-gradient(red, orange, green, blue, indigo, violet, red);
+    animation: bg 36s infinite;
     background-size: 150% 150%; */
 
     /* background:
@@ -148,10 +148,10 @@ body {
       red 370px
     );
 
-    animation: bg 12s infinite; 
+    animation: bg 12s infinite;
     background-size: 150% 150%; */
 
-    /* background-image: 
+    /* background-image:
 	  	radial-gradient(circle,
 			rgba(0,0,0,0) 60%,
 			#000000 61%),
@@ -162,28 +162,28 @@ body {
 			#FF0080 0%,
 			#ECB7FC 60%,
 			#f09 100%);
-		
+
 	background-size: 15px 15px, 15px 15px,160%, 160%;
     background-position: 0 0, 0 3px, 00;
     animation: bg 12s infinite;  */
 
-    /* didn't work
+/*
     background:
     linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
     linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
     linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
     background-color:#e1ebbd;
     background-size: 128px 128px;
-    animation: bg 12s infinite;  */
 
-    /* background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0,
+
+    background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0,
     linear-gradient(45deg, transparent 75%, #d45d55 0)-10px 0,
     linear-gradient(135deg, #a7332b 50%, transparent 0) 0 0,
     linear-gradient(45deg, #6a201b 50%, #561a16 0) 0 0 #561a16;
     background-size: 20px 20px;
-    animation: bg 12s infinite; */
 
-    /* background-color:silver;
+
+    background-color:silver;
     background-image:
     radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
     radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
@@ -191,10 +191,10 @@ body {
     radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
     radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
     background-size: 100px 50px;
-    animation: bg 12s infinite;  */
+     */
 
-    /* didn't work
-    background-color:#556;
+
+    /* background-color:#556;
     background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
     linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
     linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
@@ -202,100 +202,110 @@ body {
     linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
     linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
     background-size:80px 140px;
-    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-    animation: bg 12s infinite;  */
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px; */
 
-    /* didn't work
-    background:
+
+
+    /* background:
     radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240,166,17,0) 0)21px 30px,
     radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240,166,17,0) 0)19px 30px,
     linear-gradient(#fb1 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#fb1 0)0 0,
     linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
     linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
     linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1;
-    background-size: 40px 60px;
-    animation: bg 12s infinite;  */
+    background-size: 40px 60px; */
 
-    /* didn't work
-    background:
+
+
+    /* background:
     linear-gradient(-45deg, white 25%, transparent 25%, transparent 75%, black 75%, black) 0 0,
     linear-gradient(-45deg, black 25%, transparent 25%, transparent 75%, white 75%, white) 1em 1em,
     linear-gradient(45deg, black 17%, transparent 17%, transparent 25%, black 25%, black 36%, transparent 36%, transparent 64%, black 64%, black 75%, transparent 75%, transparent 83%, black 83%) 1em 1em;
     background-color: white;
-    background-size: 2em 2em;
-
-    animation: bg 60s infinite;   */
+    background-size: 2em 2em; */
 
     /* background: repeating-conic-gradient(from 0deg at 50% 50%, #6d3839ff 0% 5%, #3d2c2cff 10% 0%, #13c5ceff 20%), radial-gradient(circle farthest-corner at 50% 50%, #ffffffff 0% 0%, #adc6f5ff 20%, #0022ffff 100%), linear-gradient(to top, #3f0303ff 0% 100%, #3f030300 100%);background-blend-mode: color-dodge;
-
-    background: linear-gradient(to top, #ff0000ff 0%, #002affff 50%), 0% 0% / 5px 5px repeat linear-gradient(to bottom right, #ff0000ff 0% 20%, #aaff00ff 20% 40%, #00c8ffff 40% 60%, #0000ffff 60% 80%, #ff0000ff 80% 100%), 0% 0% / 100px 100px repeat conic-gradient(from 0deg at 50% 50%, #742d2eff 0% 25%, #55742dff 25% 50%, #2d2e74ff 50% 75%, #305e7bff 75% 100%), 0% 0% / 50px 50px repeat conic-gradient(from 0deg at 50% 50%, #9693d2ff 0% 25%, #b78ccfff 25% 50%, #8ccf93ff 50% 75%, #cfb78cff 75% 100%);background-blend-mode: soft-light;
-
-    background: 0% 0% / 100px 100px repeat radial-gradient(circle farthest-side at 100% 100%, #5000e6ff 0% 12.5%, #5987fcff 12.5% 25%, #4a55f2ff 25% 37.5%, #808080ff 37.5% 50%, #37383eff 50% 62.5%, #4a55f2ff 62.5% 75%, #5987fcff 75% 87.5%, #5c59fc00 87.5% 100%), 0% 0% / 100px 100px repeat radial-gradient(circle farthest-side at 0% 0%, #5c59fc00 0% 12.5%, #5987fcff 12.5% 25%, #4a55f2ff 25% 37.5%, #37383eff 37.5% 50%, #808080ff 50% 62.5%, #4a55f2ff 62.5% 75%, #5987fcff 75% 87.5%, #5000e6ff 87.5% 100%, #ffffff00 100% 100%), linear-gradient(to top, #8000ffff 0%, #004cffff 100%), radial-gradient(farthest-corner at 50% 100%, #ff008499 0%, #0084ffff 100%);background-blend-mode: screen;
-
-    background: 0% 0% / 100px 100px repeat repeating-linear-gradient(to bottom left, #4e6ab1ff 0% 10%, #91a3cfff 10% 20%, #adbadbff 20% 30%, #d8deeeff 30% 40%, #f4f6faff 40% 50%), 0% 0% / 100px 100px repeat repeating-linear-gradient(to bottom right, #4e6ab1ff 0% 10%, #91a3cfff 10% 20%, #adbadbff 20% 30%, #d8deeeff 30% 40%, #f4f6faff 40% 50%), radial-gradient(farthest-corner at 50% 50%, #db24c0ff 0%, #184295ff 100%);background-blend-mode: multiply;
-
-    background: 0% 0% / auto 25px repeat-y linear-gradient(to top, #ff000000 0% 48%, #ffffff33 48% 52%, #0000ff00 52%), 0% 0% / 25px auto repeat-x linear-gradient(to right, #ff000000 0% 48%, #ffffff33 48% 52%, #0000ff00 52%), radial-gradient(farthest-corner at 100% 100%, #e3261cff 0%, #a121afff 60%, #261ce3ff 100%);background-blend-mode: overlay;
-
-    background: repeating-linear-gradient(45deg, #000000ff 0% 8%, #470affff 12%, #0a81ffff 12% 12.2%), linear-gradient(45deg, #ff0000ff 0%, #ea00ffff 50%, #0000ffff 100%);background-blend-mode: luminosity;
-
-    background: radial-gradient(farthest-corner at 50% 65%, #429effff 0%, #0000ff00 70%), radial-gradient(farthest-corner at 65% 0%, #ff914dff 0%, #0000ff00 70%), radial-gradient(farthest-corner at 85% 50%, #33f1ffff 0%, #0000ff00 70%), radial-gradient(farthest-corner at 25% 25%, #eb52ffff 0%, #0000ff00 70%), radial-gradient(farthest-corner at 25% 75%, #ff7300ff 0%, #0000ff00 70%), linear-gradient(to top, #ebebffff 0% 100%, #ffffffff 100%);background-blend-mode: hard-light;
-
-    background: 0% 0% / 100px 100px repeat conic-gradient(from 0deg at 50% 50%, #7ea4b4ff 0% 25%, #a4b47eff 25% 50%, #b47e9bff 50% 75%, #7eb4a2ff 75% 100%), linear-gradient(to top, #8ad8c3ff 0%, #8c95d9ff 100%);background-blend-mode: color-burn;
-
-    background: linear-gradient(to top, #66e3ffff 0%, #66ffc2ff 50%, #6966ffff 100%), radial-gradient(circle farthest-side at 0% 0%, #a166ffff 0%, #6685ffff 50%, #ff66deff 100%);background-blend-mode: hard-light;
-
-    background: radial-gradient(farthest-side at 0% 100%, #c2c2ffff 0%, #c2e7ffff 25%, #ffd1f9ff 50%, #ecebffff 75%, #c2c2ffff 100%), radial-gradient(farthest-corner at 100% 100%, #c2c2ffff 0%, #ecebffff 25%, #ffd1f9ff 50%, #c2e7ffff 75%, #c2c2ffff 100%);background-blend-mode: overlay;
-
-    background: 0% 0% / 50px 50px repeat repeating-conic-gradient(from 0deg at 50% 50%, #3b09d3ff 0% 10%, #4f0fffff 10% 15%, #3b09d3ff 15% 25%);
-
-    background: repeating-radial-gradient(circle farthest-corner at 0% 0%, #bb00ffff 0% 3.33%, #fa00f2ff 3.33% 6.67%, #43016fff 6.67% 10%, #ffffff00 10% 10%), linear-gradient(to bottom right, #0004ffff 0%, #7b00ffff 25%, #ff2eb9ff 50%, #aa00ffff 75%, #00f2ffff 100%);background-blend-mode: luminosity;
-
-    background: 50% 50% / 100px 100px repeat radial-gradient(circle farthest-side at 0% 100%, #fff1f1ff 0% 20%, #ffc2daff 20% 40%, #ff00ffff 40% 60%, #9101e7ff 60% 80%, #6a00ffff 80% 100%, #2f0070ff 100% 100%), 50% 50% / 100px 100px repeat radial-gradient(circle farthest-side at 100% 100%, #fff0f1ff 0% 20%, #ffc2daff 20% 40%, #ff00ffff 40% 60%, #9101e7ff 60% 80%, #6a00ffff 80% 100%, #2f0070ff 100% 100%), radial-gradient(circle farthest-corner at 50% 100%, #ff0099ff 0%, #00ebdbff 100%);background-blend-mode: multiply;
     animation: bg 8s infinite; 
-} */
+    background-size: 150% 150%;  */
 
+    /* background: linear-gradient(to top, #ff0000ff 0%, #002affff 50%), 0% 0% / 5px 5px repeat linear-gradient(to bottom right, #ff0000ff 0% 20%, #aaff00ff 20% 40%, #00c8ffff 40% 60%, #0000ffff 60% 80%, #ff0000ff 80% 100%), 0% 0% / 100px 100px repeat conic-gradient(from 0deg at 50% 50%, #742d2eff 0% 25%, #55742dff 25% 50%, #2d2e74ff 50% 75%, #305e7bff 75% 100%), 0% 0% / 50px 50px repeat conic-gradient(from 0deg at 50% 50%, #9693d2ff 0% 25%, #b78ccfff 25% 50%, #8ccf93ff 50% 75%, #cfb78cff 75% 100%);background-blend-mode: soft-light;
+    animation: bg 8s infinite; */
+    /* background: 0% 0% / 100px 100px repeat radial-gradient(circle farthest-side at 100% 100%, #5000e6ff 0% 12.5%, #5987fcff 12.5% 25%, #4a55f2ff 25% 37.5%, #808080ff 37.5% 50%, #37383eff 50% 62.5%, #4a55f2ff 62.5% 75%, #5987fcff 75% 87.5%, #5c59fc00 87.5% 100%), 0% 0% / 100px 100px repeat radial-gradient(circle farthest-side at 0% 0%, #5c59fc00 0% 12.5%, #5987fcff 12.5% 25%, #4a55f2ff 25% 37.5%, #37383eff 37.5% 50%, #808080ff 50% 62.5%, #4a55f2ff 62.5% 75%, #5987fcff 75% 87.5%, #5000e6ff 87.5% 100%, #ffffff00 100% 100%), linear-gradient(to top, #8000ffff 0%, #004cffff 100%), radial-gradient(farthest-corner at 50% 100%, #ff008499 0%, #0084ffff 100%);background-blend-mode: screen;
+    animation: bg 8s infinite; */
+    /* background: 0% 0% / 100px 100px repeat repeating-linear-gradient(to bottom left, #4e6ab1ff 0% 10%, #91a3cfff 10% 20%, #adbadbff 20% 30%, #d8deeeff 30% 40%, #f4f6faff 40% 50%), 0% 0% / 100px 100px repeat repeating-linear-gradient(to bottom right, #4e6ab1ff 0% 10%, #91a3cfff 10% 20%, #adbadbff 20% 30%, #d8deeeff 30% 40%, #f4f6faff 40% 50%), radial-gradient(farthest-corner at 50% 50%, #db24c0ff 0%, #184295ff 100%);background-blend-mode: multiply;
+    animation: bg 8s infinite;  */
+    /* background: 0% 0% / auto 25px repeat-y linear-gradient(to top, #ff000000 0% 48%, #ffffff33 48% 52%, #0000ff00 52%), 0% 0% / 25px auto repeat-x linear-gradient(to right, #ff000000 0% 48%, #ffffff33 48% 52%, #0000ff00 52%), radial-gradient(farthest-corner at 100% 100%, #e3261cff 0%, #a121afff 60%, #261ce3ff 100%);background-blend-mode: overlay; */
+    /* animation: bs 8s infinite;
+    background-size: 10% 10%; */
+    /* background: repeating-linear-gradient(45deg, #000000ff 0% 8%, #470affff 12%, #0a81ffff 12% 12.2%), linear-gradient(45deg, #ff0000ff 0%, #ea00ffff 50%, #0000ffff 100%);background-blend-mode: luminosity;
+    animation: bg 8s infinite;
+    background-size: 150% 150%;  */
+    /* background: radial-gradient(farthest-corner at 50% 65%, #429effff 0%, #0000ff00 70%), radial-gradient(farthest-corner at 65% 0%, #ff914dff 0%, #0000ff00 70%), radial-gradient(farthest-corner at 85% 50%, #33f1ffff 0%, #0000ff00 70%), radial-gradient(farthest-corner at 25% 25%, #eb52ffff 0%, #0000ff00 70%), radial-gradient(farthest-corner at 25% 75%, #ff7300ff 0%, #0000ff00 70%), linear-gradient(to top, #ebebffff 0% 100%, #ffffffff 100%);background-blend-mode: hard-light; */
+
+    /* background: 0% 0% / 100px 100px repeat conic-gradient(from 0deg at 50% 50%, #7ea4b4ff 0% 25%, #a4b47eff 25% 50%, #b47e9bff 50% 75%, #7eb4a2ff 75% 100%), linear-gradient(to top, #8ad8c3ff 0%, #8c95d9ff 100%);background-blend-mode: color-burn;
+    animation: bg 8s infinite;  */
+    /* background: linear-gradient(to top, #66e3ffff 0%, #66ffc2ff 50%, #6966ffff 100%), radial-gradient(circle farthest-side at 0% 0%, #a166ffff 0%, #6685ffff 50%, #ff66deff 100%);background-blend-mode: hard-light; */
+
+    /* background: radial-gradient(farthest-side at 0% 100%, #c2c2ffff 0%, #c2e7ffff 25%, #ffd1f9ff 50%, #ecebffff 75%, #c2c2ffff 100%), radial-gradient(farthest-corner at 100% 100%, #c2c2ffff 0%, #ecebffff 25%, #ffd1f9ff 50%, #c2e7ffff 75%, #c2c2ffff 100%);background-blend-mode: overlay; */
+
+    /* background: 0% 0% / 50px 50px repeat repeating-conic-gradient(from 0deg at 50% 50%, #3b09d3ff 0% 10%, #4f0fffff 10% 15%, #3b09d3ff 15% 25%); */
+
+    /* background: repeating-radial-gradient(circle farthest-corner at 0% 0%, #bb00ffff 0% 3.33%, #fa00f2ff 3.33% 6.67%, #43016fff 6.67% 10%, #ffffff00 10% 10%), linear-gradient(to bottom right, #0004ffff 0%, #7b00ffff 25%, #ff2eb9ff 50%, #aa00ffff 75%, #00f2ffff 100%);background-blend-mode: luminosity; */
+
+    /* background: 50% 50% / 100px 100px repeat radial-gradient(circle farthest-side at 0% 100%, #fff1f1ff 0% 20%, #ffc2daff 20% 40%, #ff00ffff 40% 60%, #9101e7ff 60% 80%, #6a00ffff 80% 100%, #2f0070ff 100% 100%), 50% 50% / 100px 100px repeat radial-gradient(circle farthest-side at 100% 100%, #fff0f1ff 0% 20%, #ffc2daff 20% 40%, #ff00ffff 40% 60%, #9101e7ff 60% 80%, #6a00ffff 80% 100%, #2f0070ff 100% 100%), radial-gradient(circle farthest-corner at 50% 100%, #ff0099ff 0%, #00ebdbff 100%);background-blend-mode: multiply;
+    animation: bg 8s infinite;  */
+
+    /* background-image: url("cereal-background.jpg"); 
+    background-size: 120% 180%; 
+    background-image: url("red-orange-background.jpg");
+    background-image: url("white-gray-background.jpg"); 
+    background-image: url("red-flower-background.jpg");
+    background-image: url("color-qrcode.jpg");  
+
+    
+    animation: bg 8s infinite;  */
 }
 
 
 @keyframes bg {
     0% {
-        background-position: 0% 0%;
+        background-position: 100% 0%; 
     }
     50% {
-        background-position: 50% 50%;
+        background-position: 50% 50%; 
     }
     100% {
-        background-position: 100% 100%; 
+        background-position: 0% 100%; 
     }
 }
 
 #content {
-    width: 85vw; 
-    height: 85vh; 
-    display: flex; 
-    justify-content: space-evenly;  
-    align-items: center; 
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
 }
 
 #todolist-cont, #clearedtask-cont {
-    border: 2.5px solid var(--text-color); 
+    border: 2.5px solid var(--text-color);
 }
 
 #todolist-title, #todolist-userinput, #todolist-todobox, #clearedtask-title, #clearedtask-clearedbox, #todolist-add-btn {
-    border: 2px solid var(--text-color); 
+    border: 2px solid var(--text-color);
 }
 
 #todolist-cont {
     background: var(--cont-color);
-    box-shadow: 10px 10px var(--text-color);  
-    
-    width: 400px; 
-    height: 450px; 
-    border-radius: 10px; 
-   
-    display: flex; 
-    flex-direction: column; 
+    box-shadow: 10px 10px var(--text-color);
+
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
 
     /* box-shadow: 10px 10px #6c757d;  */
      /* background: linear-gradient(to top, var(--gradient2), var(--gradient3), var(--gradient4), var(--gradient5), var(--gradient6), var(--gradient7), var(--gradient8), var(--gradient9));  */
@@ -303,11 +313,11 @@ body {
 
 #todolist-title {
     background: var(--cont-color);
-    color: var(--text-color);  
- 
-    margin: 20px 20px 0 20px; 
+    color: var(--text-color);
+
+    margin: 20px 20px 0 20px;
     padding: 10px;
-    border-radius: 10px;  
+    border-radius: 10px;
 
     /* text-shadow: 2px 0 #1b1b1b, -2px 0 #1b1b1b, 0 2px #1b1b1b, 0 -2px #1b1b1b,
              1px 1px #1b1b1b, -1px -1px #1b1b1b, 1px -1px #1b1b1b, -1px 1px #1b1b1b; */
@@ -318,45 +328,45 @@ body {
 #todolist-userinput-cont {
     background: var(--cont-color);
 
-    margin: 10px 20px; 
-    padding: 0; 
-    border-radius: 10px; 
+    margin: 10px 20px;
+    padding: 0;
+    border-radius: 10px;
 
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #todolist-userinput {
     background: var(--cont-color);
-    width: 81.5%; 
-    height: 100%; 
-    
+    width: 81.5%;
+    height: 100%;
+
     margin: 0;
-    padding: 0 0 0 5px;  
-    border-radius: 10px; 
-    color: var(--text-color); 
+    padding: 0 0 0 5px;
+    border-radius: 10px;
+    color: var(--text-color);
 }
 
 #todolist-add-btn {
     width: 15%;
-    background: var(--background-color); 
-    color: var(--text-color); 
-    border-radius: 10px; 
-    height: 117.56551242760004252703008787379%; 
-    font-weight: 600; 
-    margin: 0px; 
-    text-align: center; 
+    background: var(--background-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    height: 117.56551242760004252703008787379%;
+    font-weight: 600;
+    margin: 0px;
+    text-align: center;
 }
 
 #todolist-todobox {
-    background: var(--cont-color); 
+    background: var(--cont-color);
 
-    height: 275px; 
+    height: 275px;
 
-    margin: 0 20px 20px 20px; 
-    padding: 10px; 
-    border-radius: 10px; 
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /* TUTORIAL GREATSTACK (BELOW) (MINOR CUSTOMIZATIONS OF MYSELF)*/
@@ -364,69 +374,69 @@ body {
 ul li {
     list-style: none;
     /* list-style-type: none;  */
-    font-size: 17px; 
-    padding: 12px 8px 12px 42.5px; 
-    user-select: none; 
-    cursor: pointer; 
-    position: relative; 
+    font-size: 17px;
+    padding: 12px 8px 12px 42.5px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
 }
 
 ul li::before {
-    content: ''; 
-    position: absolute; 
-    height: 19px; 
-    width: 19px; 
-    background-image: url("images-Freepik/uncheck.png"); 
-    background-size: cover; 
-    background-position: center; 
-    top: 14px; 
-    left: 12px; 
+    content: '';
+    position: absolute;
+    height: 19px;
+    width: 19px;
+    background-image: url("images-Freepik/uncheck.png");
+    background-size: cover;
+    background-position: center;
+    top: 14px;
+    left: 12px;
 }
 
 li::before {
     border: 1.5px solid var(--text-color);
-    border-radius: 8px; 
+    border-radius: 8px;
 
 }
 
 ul {
-    width: auto; 
-    height: auto; 
-   
-    margin: 0; 
-    padding: 0; 
+    width: auto;
+    height: auto;
 
-    display: flex; 
-    flex-direction: column; 
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .liContainer {
-    border: 1.5px solid var(--text-color); 
-    width: 99.243313395210977377462485202209%; 
-    font-size: 16px; 
-    
-    margin-bottom: 7.5px; 
-    border-radius: 10px; 
+    border: 1.5px solid var(--text-color);
+    width: 99.243313395210977377462485202209%;
+    font-size: 16px;
+
+    margin-bottom: 7.5px;
+    border-radius: 10px;
 }
 
 ul li span {
-    position: absolute; 
-    right: 5px; 
-    top: 5px; 
-    width: 40px; 
-    height: 40px; 
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
 
-    font-size: 26px; 
-    color: var(--textcolor); 
-    line-height: 40px; 
-    border-radius: 10px; 
-    text-align: center; 
+    font-size: 26px;
+    color: var(--textcolor);
+    line-height: 40px;
+    border-radius: 10px;
+    text-align: center;
 
 }
 
 ul li span:hover, #todolist-add-btn:hover {
-    background: var(--text-color); 
-    color: var(--cont-color); 
+    background: var(--text-color);
+    color: var(--cont-color);
 }
 
 ul li.checked::before {
@@ -434,46 +444,46 @@ ul li.checked::before {
 }
 
 /* TUTORIAL GREATSTACK (ABOVE) (MINOR CUSTOMIZATIONS OF MYSELF) */
- 
-#clearedtask-cont {
-    background: var(--cont-color); 
-    box-shadow: 10px 10px var(--text-color); 
 
-    width: 400px; 
-    height: 250px; 
-    border-radius: 10px; 
-    
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    
+#clearedtask-cont {
+    background: var(--cont-color);
+    box-shadow: 10px 10px var(--text-color);
+
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #clearedtask-title {
-    width: 330px; 
+    width: 330px;
 
-    margin: 10px 10px 5px 10px; ; 
-    padding: 10px; 
-    border-radius: 10px; 
-      
-    
+    margin: 10px 10px 5px 10px; ;
+    padding: 10px;
+    border-radius: 10px;
+
+
 }
 
 #clearedtask-clearedbox {
-    height: 200px; 
-    width: 350px; 
-     
-    margin: 5px 10px 20px 10px; 
-    border-radius: 10px; 
+    height: 200px;
+    width: 350px;
+
+    margin: 5px 10px 20px 10px;
+    border-radius: 10px;
 }
 
 footer{
     /* border: 2px solid var(--text-color);  */
 
-    width: 95vw; 
-    height: 20px; 
-    text-align: right; 
+    width: 95vw;
+    height: 20px;
+    text-align: right;
 
-    font-size: 12px; 
+    font-size: 12px;
 }
